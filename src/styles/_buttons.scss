@@ -1,0 +1,6 @@
+@import 'variables';
+
+.button:hover, .button:focus {
+  cursor: pointer;
+  color: $accent-color;
+}

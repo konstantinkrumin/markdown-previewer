@@ -1,0 +1,10 @@
+/* MEDIA QUERIES */
+@media (max-width: 650px) {
+  #main-window { font-size: 12px; }
+  #editor { height: 50vh; }
+  img { width: 100%; }
+}
+
+@media (max-width: 750px) and (orientation: landscape) {
+  #editor { height: 60vh; }
+}

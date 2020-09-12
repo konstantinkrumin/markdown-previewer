@@ -1,0 +1,15 @@
+@import 'variables';
+
+/* EDITOR SECTION */
+#editor-block { margin-bottom: 1.5rem; }
+
+#editor, #preview {
+  background: $light-gray;
+  padding: 1rem 1.5rem;
+  min-height: 30vh;
+}
+
+#editor {
+  width: 100%;
+  height: 30vh;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@400;800&display=swap');
+@import 'variables';
+@import 'editor-section';
+@import 'toolbar';
+@import 'buttons';
+@import 'media-queries';
+
+/* MAIN */
+* { margin: 0; }
+
+#main-window {
+  background: $middle-gray;
+  width: 100%;
+  min-height: 100vh;
+  font-family: $main-font;
+}
+
+#block-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
